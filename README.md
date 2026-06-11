@@ -18,6 +18,9 @@ Implementación de una estrategia Blue/Green Deployment utilizando Lentasos (e-c
 - `rollback.sh` — Rollback manual a blue
 
 ## Cómo ejecutar
+- descarga el zip
+- Colocalo en el apartado root de linux
+- abre ubuntu y ejecuta:
 ```bash
 sudo systemctl stop nginx
 docker compose up -d
